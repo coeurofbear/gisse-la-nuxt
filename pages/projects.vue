@@ -1,19 +1,20 @@
 <template>
   <div class="main">
-    <HomeContent />
+    <ProjectsContent />
     <Bg />
   </div>
 </template>
 
 <script>
-import HomeContent from '@/components/HomeContent.vue'
+import ProjectsContent from '@/components/ProjectsContent.vue'
 import Bg from '@/components/Background.vue'
 
 export default {
-  name: 'Home',
+  name: 'Projects',
   components: {
-    HomeContent,
+    ProjectsContent,
     Bg
-  }
+  },
+
 }
 </script>
