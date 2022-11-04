@@ -1,0 +1,31 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: $xs-max,
+  md: $sm-max,
+  lg: $md-max,
+  xl: $lg-max
+) !default;
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 20px !default;
+$grid-row-columns: 6 !default;
+$enable-grid-classes: true !default;
+
+//container widths
+$sm-container: 540px;
+$md-container: 720px;
+$lg-container: 960px;
+$xl-container: 1300px;
+
+$container-max-widths: (
+  sm: $sm-container,
+  md: $md-container,
+  lg: $lg-container,
+  xl: $xl-container
+) !default;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

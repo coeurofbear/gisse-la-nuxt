@@ -1,0 +1,60 @@
+
+@import '@/assets/css/variables/all.scss';
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.main {
+  position: relative;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper,
+.wrapper-short {
+  padding: 3rem;
+  
+  @media #{$breakpoint-lg-down} {
+    padding: 2rem;
+  }
+
+  @media #{$breakpoint-md-down} {
+    padding: 1rem;
+  }
+}
+
+.wrapper-short {
+  height: calc(100vh - 20px);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.main-title {
+  font-size: 120px;
+  color: white;
+  margin-bottom: 40px;
+  padding: 0;
+  line-height: 120%;
+
+  @media #{$breakpoint-xl-down} {
+    font-size: 80px;
+  }
+  @media #{$breakpoint-md-down} {
+    font-size: 65px;
+  }
+}
+
+a {
+  font-size: 25px;
+  color: white;
+}
